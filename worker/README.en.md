@@ -116,7 +116,7 @@ worker/
 
 ## Getting the WLOC Location Module
 
-This repository is only the web console + link parsing API. For the WLOC location module itself, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and **send the message 「看简介」 in the group** to get it via the reply.
+This repository is only the web console + link parsing API. For the WLOC location module itself, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and **send any three messages first, then send 「看简介」**, to get it via the reply.
 
 
 ## Related Projects

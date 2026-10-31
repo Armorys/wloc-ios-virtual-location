@@ -53,16 +53,17 @@ Whichever path you take, the same prerequisites apply: **proxy connected, module
 > **The only way to get the module and subscription addresses:**
 >
 > 1. Join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn))
-> 2. Send the message 「**看简介**」 in the group
-> 3. Follow the reply to get the module and subscription addresses
+> 2. Send **any three messages** in the group (any content, three in total)
+> 3. Then send the message 「**看简介**」
+> 4. Follow the reply to get the module and subscription addresses
 >
-> This repository does not provide module downloads or subscription links directly. If you don't join the group or don't send 「看简介」, you can't get them — please don't ask in Issues.
+> This repository does not provide module downloads or subscription links directly. If you don't join the group, don't send the three messages, or don't send 「看简介」, you can't get them — please don't ask in Issues.
 
 Usage questions are also welcome in the group.
 
 ## Subscription URLs
 
-Subscription addresses are not published here. To get them, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and send the message 「看简介」 — see [Get the Module & Community](#get-the-module--community).
+Subscription addresses are not published here. To get them, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) — send any three messages first, then send 「看简介」 — see [Get the Module & Community](#get-the-module--community).
 
 Two notes:
 

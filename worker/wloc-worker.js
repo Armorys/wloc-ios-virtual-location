@@ -400,7 +400,7 @@ document.getElementById('favNameInput').addEventListener('keydown', e => { if(e.
 renderFavs();
 queryActive();
 <\/script>
-<div style="text-align:center;color:#8e8e93;font-size:13px;padding:18px 12px 26px;line-height:1.7">需要 WLOC 定位模块？加入 Telegram 群 <a href="https://t.me/Sousuozh_cn" target="_blank" style="color:#007aff;text-decoration:none">中文搜索大师 @Sousuozh_cn</a> 并发送「看简介」即可获取</div>
+<div style="text-align:center;color:#8e8e93;font-size:13px;padding:18px 12px 26px;line-height:1.7">需要 WLOC 定位模块？加入 Telegram 群 <a href="https://t.me/Sousuozh_cn" target="_blank" style="color:#007aff;text-decoration:none">中文搜索大师 @Sousuozh_cn</a>，先发送三条随机消息，再发送「看简介」即可获取</div>
 </body>
 </html>`;
 
