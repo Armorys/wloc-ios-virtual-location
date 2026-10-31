@@ -5,7 +5,7 @@
 This directory contains the WLOC project's web console and map-link parsing API: pick a target location on the map, write it to your proxy app in one tap, and change your iOS location — no jailbreak required. For the module itself, subscription URLs, and the full tutorial, see the [README](../README.md) in the repository root.
 
 - 🌐 Live demo: https://wloc-pages.pages.dev/
-- 📦 Repository: https://github.com/Armorys/wloc (this `worker/` directory)
+- 📦 Repository: https://github.com/Armorys/wloc-ios-virtual-location (this `worker/` directory)
 
 ## Features
 
@@ -31,7 +31,7 @@ For the module to take effect, all of the following must be in place (the consol
 
 ### Cloudflare Pages (recommended)
 
-1. Connect the Armorys/wloc repository in Cloudflare Pages, with the project root directory set to `worker`
+1. Connect the Armorys/wloc-ios-virtual-location repository in Cloudflare Pages, with the project root directory set to `worker`
 2. Set the build output directory to `dist` (or just use the included `wrangler.pages.jsonc` in this directory)
 3. After deployment, `functions/[[route]].js` automatically serves as the Pages Functions entry point; both the console page and the `/api/parse` endpoint are available
 
@@ -116,12 +116,12 @@ worker/
 
 ## Getting the WLOC Location Module
 
-This repository is only the web console + link parsing API. For the WLOC location module itself, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and check the group description:
+This repository is only the web console + link parsing API. For the WLOC location module itself, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and **send the message 「看简介」 in the group** to get it via the reply.
 
 
 ## Related Projects
 
-- WLOC main project (module subscriptions, tutorial): https://github.com/Armorys/wloc
+- WLOC main project (module subscriptions, tutorial): https://github.com/Armorys/wloc-ios-virtual-location
 - Upstream repository of the WLOC location module: https://github.com/ios151/wloc-ios
 
 ## Disclaimer

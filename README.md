@@ -49,11 +49,20 @@ WLOC 虚拟定位通过改写 Apple 网络定位服务（WLOC，即 WiFi / 基�
 
 ## 获取模块与交流
 
-需要 WLOC 定位模块或使用交流，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)），查看群简介获取。
+> [!IMPORTANT]
+> **获取模块与订阅地址的唯一方式：**
+>
+> 1. 加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)）
+> 2. 在群里发送「**看简介**」三个字
+> 3. 按回复提示即可获取模块与订阅地址
+>
+> 本仓库不直接提供模块下载与订阅链接；未加群、或未发送「看简介」，都无法获取，请勿在 Issues 里索取。
+
+使用上的问题也可以在群里交流提问。
 
 ## 订阅地址
 
-订阅地址不在此处公开提供。需要订阅地址，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)），查看群简介获取，详见[获取模块与交流](#获取模块与交流)。
+订阅地址不在此处公开提供。需要订阅地址，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)）并发送「看简介」获取，详见[获取模块与交流](#获取模块与交流)。
 
 两点说明：
 
@@ -114,7 +123,7 @@ WLOC 虚拟定位通过改写 Apple 网络定位服务（WLOC，即 WiFi / 基�
 
 **一键部署（仅 Workers 模式）**
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Armorys/wloc/tree/main/worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Armorys/wloc-ios-virtual-location/tree/main/worker)
 
 点击按钮后按提示授权即可完成部署。
 
@@ -122,7 +131,7 @@ WLOC 虚拟定位通过改写 Apple 网络定位服务（WLOC，即 WiFi / 基�
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/Armorys/wloc.git
+git clone https://github.com/Armorys/wloc-ios-virtual-location.git
 cd wloc/worker
 
 # 2. 安装依赖
@@ -143,7 +152,7 @@ npm run deploy
 Pages 部署不支持一键按钮，需要手动执行：
 
 ```bash
-git clone https://github.com/Armorys/wloc.git
+git clone https://github.com/Armorys/wloc-ios-virtual-location.git
 cd wloc/worker
 npm install
 npx wrangler pages deploy dist --project-name <自定义项目名>

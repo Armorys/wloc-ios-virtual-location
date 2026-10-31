@@ -49,12 +49,20 @@ Whichever path you take, the same prerequisites apply: **proxy connected, module
 
 ## Get the Module & Community
 
-For the WLOC location module or usage discussion, join the Telegram group **中文搜索大师 (Chinese Search Master)** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and check the group description:
+> [!IMPORTANT]
+> **The only way to get the module and subscription addresses:**
+>
+> 1. Join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn))
+> 2. Send the message 「**看简介**」 in the group
+> 3. Follow the reply to get the module and subscription addresses
+>
+> This repository does not provide module downloads or subscription links directly. If you don't join the group or don't send 「看简介」, you can't get them — please don't ask in Issues.
 
+Usage questions are also welcome in the group.
 
 ## Subscription URLs
 
-Subscription addresses are not published here. To get them, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and check the group description — see [Get the Module & Community](#get-the-module--community).
+Subscription addresses are not published here. To get them, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)) and send the message 「看简介」 — see [Get the Module & Community](#get-the-module--community).
 
 Two notes:
 
@@ -115,7 +123,7 @@ The public picker has request limits, so for long-term use, deploy your own inst
 
 **One-click deploy (Workers mode only)**
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Armorys/wloc/tree/main/worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Armorys/wloc-ios-virtual-location/tree/main/worker)
 
 Click the button and follow the authorization prompts to finish deployment.
 
@@ -123,7 +131,7 @@ Click the button and follow the authorization prompts to finish deployment.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Armorys/wloc.git
+git clone https://github.com/Armorys/wloc-ios-virtual-location.git
 cd wloc/worker
 
 # 2. Install dependencies
@@ -144,7 +152,7 @@ After deployment you get your own Worker URL (e.g. `https://wloc-spoofer.<your-s
 Pages deployment has no one-click button and must be run manually:
 
 ```bash
-git clone https://github.com/Armorys/wloc.git
+git clone https://github.com/Armorys/wloc-ios-virtual-location.git
 cd wloc/worker
 npm install
 npx wrangler pages deploy dist --project-name <your-project-name>

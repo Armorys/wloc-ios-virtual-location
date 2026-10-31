@@ -5,7 +5,7 @@
 本目录是 WLOC 项目的 Web 控制台与地图链接解析 API：在地图上选好目标位置，一键写入代理工具，即可修改 iOS 定位，无需越狱。模块本体、订阅地址与完整教程见仓库根目录的 [README](../README.md)。
 
 - 🌐 在线演示：https://wloc-pages.pages.dev/
-- 📦 所属仓库：https://github.com/Armorys/wloc（本目录 `worker/`）
+- 📦 所属仓库：https://github.com/Armorys/wloc-ios-virtual-location（本目录 `worker/`）
 
 ## 功能
 
@@ -31,7 +31,7 @@
 
 ### Cloudflare Pages（推荐）
 
-1. 在 Cloudflare Pages 中连接 Armorys/wloc 仓库，项目根目录设置为 `worker`
+1. 在 Cloudflare Pages 中连接 Armorys/wloc-ios-virtual-location 仓库，项目根目录设置为 `worker`
 2. 构建输出目录设置为 `dist`（也可直接使用本目录的 `wrangler.pages.jsonc`）
 3. 部署后 `functions/[[route]].js` 会作为 Pages Functions 入口自动生效，控制台页面与 `/api/parse` 接口均可使用
 
@@ -116,12 +116,12 @@ worker/
 
 ## 获取 WLOC 定位模块
 
-本仓库只是 Web 控制台 + 链接解析 API。需要 WLOC 定位模块本体，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)），查看群简介获取：
+本仓库只是 Web 控制台 + 链接解析 API。需要 WLOC 定位模块本体，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)），**并在群里发送「看简介」三个字**，按回复提示获取。
 
 
 ## 相关项目
 
-- WLOC 主项目（模块订阅、教程）：https://github.com/Armorys/wloc
+- WLOC 主项目（模块订阅、教程）：https://github.com/Armorys/wloc-ios-virtual-location
 - WLOC 定位模块上游仓库：https://github.com/ios151/wloc-ios
 
 ## 免责声明
