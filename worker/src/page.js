@@ -408,7 +408,7 @@ document.getElementById('favNameInput').addEventListener('keydown', e => { if(e.
 renderFavs();
 queryActive();
 <\/script>
-<div style="text-align:center;color:#8e8e93;font-size:13px;padding:18px 12px 26px;line-height:1.7">需要 WLOC 定位模块？加入 Telegram 群 <a href="https://t.me/Sousuozh_cn" target="_blank" style="color:#007aff;text-decoration:none">中文搜索大师 @Sousuozh_cn</a>，先发送三条随机消息，再看群介绍即可获取</div>
+<div style="text-align:center;color:#8e8e93;font-size:13px;padding:18px 12px 26px;line-height:1.7">需要 WLOC 定位模块？先私聊机器人 <a href="https://t.me/wlocios_bot" target="_blank" style="color:#007aff;text-decoration:none">@wlocios_bot</a> 登记，加入 Telegram 群 <a href="https://t.me/Sousuozh_cn" target="_blank" style="color:#007aff;text-decoration:none">中文搜索大师 @Sousuozh_cn</a> 发满三条消息，再回机器人发送 wloc 即可获取</div>
 </body>
 </html>`;
 }

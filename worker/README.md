@@ -116,7 +116,7 @@ worker/
 
 ## 获取 WLOC 定位模块
 
-本仓库只是 Web 控制台 + 链接解析 API。需要 WLOC 定位模块本体，请加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)），**先在群里发送三条随机消息，再查看群介绍**获取。
+本仓库只是 Web 控制台 + 链接解析 API。需要 WLOC 定位模块本体，请先私聊分发机器人 [@wlocios_bot](https://t.me/wlocios_bot) 登记，加入 Telegram 群组 **中文搜索大师**（[@Sousuozh_cn](https://t.me/Sousuozh_cn)）并**在群里发送三条随机消息**，再回到机器人发送 **wloc** 或 **定位模块** 领取。
 
 
 ## 相关项目
