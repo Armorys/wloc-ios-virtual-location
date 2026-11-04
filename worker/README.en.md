@@ -116,7 +116,7 @@ worker/
 
 ## Getting the WLOC Location Module
 
-This repository is only the web console + link parsing API. For the WLOC location module itself, DM the distribution bot [@wlocios_bot](https://t.me/wlocios_bot) to register, join the Telegram group **Chinese Search Master** ([@Sousuozh_cn](https://t.me/Sousuozh_cn)), **send any three messages** in the group, then send **wloc** or **定位模块** to the bot to get it.
+This repository is only the web console + link parsing API. For the WLOC location module itself, DM the distribution bot [@wlocios_bot](https://t.me/wlocios_bot) to register, join the Telegram group **Chinese Search Master** ([@souqings](https://t.me/souqings)), **send any three messages** in the group, then send **wloc** or **定位模块** to the bot to get it.
 
 
 ## Related Projects
