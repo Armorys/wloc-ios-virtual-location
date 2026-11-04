@@ -53,7 +53,7 @@ Whichever path you take, the same prerequisites apply: **proxy connected, module
 > **The only way to get the module and subscription addresses (via the distribution bot):**
 >
 > 1. First DM the distribution bot [@wlocios_bot](https://t.me/wlocios_bot) — send any message to register
-> 2. Join the Telegram group **Chinese Search Master** ([@souqings](https://t.me/souqings))
+> 2. Join the Telegram group **SOUQING** ([@souqings](https://t.me/souqings))
 > 3. Send **any three messages** in the group (any content, three in total)
 > 4. Go back to the bot and send **wloc** or **定位模块** to receive the subscription addresses and module files
 >
@@ -63,7 +63,7 @@ Usage questions are also welcome in the group.
 
 ## Subscription URLs
 
-Subscription addresses are not published here. To get them, use the distribution bot: DM [@wlocios_bot](https://t.me/wlocios_bot) to register, join the Telegram group **Chinese Search Master** ([@souqings](https://t.me/souqings)) and send any three messages, then send **wloc** or **定位模块** to the bot — see [Get the Module & Community](#get-the-module--community).
+Subscription addresses are not published here. To get them, use the distribution bot: DM [@wlocios_bot](https://t.me/wlocios_bot) to register, join the Telegram group **SOUQING** ([@souqings](https://t.me/souqings)) and send any three messages, then send **wloc** or **定位模块** to the bot — see [Get the Module & Community](#get-the-module--community).
 
 Two notes:
 
@@ -283,7 +283,7 @@ This project builds on ideas and foundations from the following open-source work
 - [proxypin-wloc-spoofer](https://github.com/FFF686868/proxypin-wloc-spoofer) — the original WLOC location-modification idea, by FFF686868
 - [NSNanoCat/Util](https://github.com/NSNanoCat/util) — cross-platform scripting utility framework
 
-For the module or usage discussion, you can also join the Telegram group 中文搜索大师 (Chinese Search Master, [@souqings](https://t.me/souqings)) — see [Get the Module & Community](#get-the-module--community).
+For the module or usage discussion, you can also join the Telegram group 搜擎 · SOUQING ([@souqings](https://t.me/souqings)) — see [Get the Module & Community](#get-the-module--community).
 
 ## Disclaimer
 

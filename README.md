@@ -53,7 +53,7 @@ WLOC 虚拟定位通过改写 Apple 网络定位服务（WLOC，即 WiFi / 基�
 > **获取模块与订阅地址的唯一方式（通过分发机器人领取）：**
 >
 > 1. 先私聊分发机器人 [@wlocios_bot](https://t.me/wlocios_bot)，随便发送一条消息完成登记
-> 2. 加入 Telegram 群组 **中文搜索大师**（[@souqings](https://t.me/souqings)）
+> 2. 加入 Telegram 群组 **搜擎 · SOUQING**（[@souqings](https://t.me/souqings)）
 > 3. 在群里发送 **三条随机消息**（任意内容，共三条）
 > 4. 回到机器人发送 **wloc** 或 **定位模块**，即可领取订阅地址与模块文件
 >
@@ -63,7 +63,7 @@ WLOC 虚拟定位通过改写 Apple 网络定位服务（WLOC，即 WiFi / 基�
 
 ## 订阅地址
 
-订阅地址不在此处公开提供。需要订阅地址，请通过分发机器人领取：先私聊 [@wlocios_bot](https://t.me/wlocios_bot) 登记，加入 Telegram 群组 **中文搜索大师**（[@souqings](https://t.me/souqings)）并发送三条随机消息，再回到机器人发送 **wloc** 或 **定位模块** 即可领取，详见[获取模块与交流](#获取模块与交流)。
+订阅地址不在此处公开提供。需要订阅地址，请通过分发机器人领取：先私聊 [@wlocios_bot](https://t.me/wlocios_bot) 登记，加入 Telegram 群组 **搜擎 · SOUQING**（[@souqings](https://t.me/souqings)）并发送三条随机消息，再回到机器人发送 **wloc** 或 **定位模块** 即可领取，详见[获取模块与交流](#获取模块与交流)。
 
 两点说明：
 
@@ -283,7 +283,7 @@ A：不会。地图链接解析接口 `/api/parse` 是纯转发解析，不写�
 - [proxypin-wloc-spoofer](https://github.com/FFF686868/proxypin-wloc-spoofer) — 原始 WLOC 定位修改思路，by FFF686868
 - [NSNanoCat/Util](https://github.com/NSNanoCat/util) — 跨平台脚本工具框架
 
-获取模块或交流使用问题，也可加入 Telegram 群组「中文搜索大师」（[@souqings](https://t.me/souqings)），见[获取模块与交流](#获取模块与交流)。
+获取模块或交流使用问题，也可加入 Telegram 群组「搜擎 · SOUQING」（[@souqings](https://t.me/souqings)），见[获取模块与交流](#获取模块与交流)。
 
 ## 免责声明
 
