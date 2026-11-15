@@ -16,6 +16,18 @@
 
 WLOC virtual location rewrites the coordinates returned by Apple's network location service (WLOC — Wi-Fi / cell-tower positioning) to change your iOS location **without a jailbreak** and without typing in latitude/longitude by hand: tap a point on the online map picker, or share a location from your maps app, and the location switches. This repository provides ready-made modules for Surge, Quantumult X, Loon, Stash, and Shadowrocket, the two MITM scripts behind them, plus the companion online location picker and map-link parsing service.
 
+> [!WARNING]
+> **Important notice (2026-11-15): Apple has blocked this method**
+>
+> Starting 2026-11-04, Apple silently pushed a trustd hot update (Trusted Assets version 1014 — **no iOS update required**) that adds certificate pinning for `gs-loc.apple.com` / `gs-loc-cn.apple.com`: only Apple-issued certificates are accepted, and MITM certificates issued by a proxy tool's own CA are now rejected by the system ("The server's certificate is invalid").
+>
+> - **Scope**: widely reported on iOS 16 / 18 / 26; on some devices it only takes effect **after a reboot**. iOS 27 beta 6+ blocked it at the OS level even earlier.
+> - **Check your device**: Settings → General → About → Certificate Trust Settings, look at the Trusted Assets version: **1014 = affected**, this method no longer works; **≤1013 still works** — do not reboot, do not update iOS, and block `mesu.apple.com`, `gdmf.apple.com`, `appldnld.apple.com` on your router / proxy to stop the rules from updating.
+> - **No workaround yet**: validation happens on-device in locationd / trustd, so switching proxy apps, routers, or gateway transparent proxies does not help. There is currently no fix for non-jailbroken devices (jailbroken devices can restore the older pinning rules database).
+> - **Alternative**: the developer location-simulation channel (Developer Mode + DVT location simulation, e.g. the open-source pymobiledevice3) does not rely on MITM and is unaffected by this block.
+>
+> This repository is kept as a technical archive; devices still on Trusted Assets ≤1013 can keep using the documentation below.
+
 ## Contents
 
 - [Quick Start](#quick-start)
